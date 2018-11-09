@@ -52,12 +52,12 @@ defmodule Raygun.Mixfile do
   defp deps do
     [
       {:poison, "~> 2.0 or ~> 1.0"},
-      {:httpoison, "~> 0.8"},
+      {:httpoison, "~> 1.0"},
       {:plug, "~> 1.1"},
       {:earmark, "~> 0.2", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev},
       {:meck, "~> 0.8", only: :test},
-      {:excoveralls, "~> 0.5.4", only: :test}
+      {:excoveralls, "~> 0.10.2", only: :test}
     ]
   end
 
